@@ -42,11 +42,7 @@ const Main = () => {
 
   useEffect(transformMatrix, [matrix])
 
-  return (
-    <div className="Main">
-      {movieList}
-    </div>
-  )
+  return <div className="Main">{movieList}</div>
 }
 
 export default Main
