@@ -28,3 +28,10 @@ In order to take full advantage of this workshop the following technologies shou
     file and gets the docker image up and running.
 3. wait a few seconds and run `docker ps` to ensure the image is running. you should see a line
    that includes `qlikcore/engine` under the IMAGE header.
+
+## Step 2 - Loading data into the Engine
+
+1. ensure step 1 has been completed and the engine is running
+2. `cd data-load`
+3. `npm install`
+4. `npm start`
