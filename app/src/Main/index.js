@@ -14,7 +14,6 @@ const Main = () => {
   useEffect(() => {
     const getHyperCube = async () => {
       hypercubeJson.qHyperCubeDef.qInitialDataFetch[0].qHeight = HEIGHT
-      console.log(hypercubeJson)
       await EnigmaService.getData(hypercubeJson, updateData)
     }
     getHyperCube()
