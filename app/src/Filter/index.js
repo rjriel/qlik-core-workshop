@@ -8,6 +8,7 @@ const Filter = props => {
 
   useEffect(() => {
     EnigmaService.getList(props.field, {}, updateList)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const updateList = async model => {
