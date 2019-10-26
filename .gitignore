@@ -1,5 +1,5 @@
 documents
-
+node_modules
 /data-load/node_modules
 
 .DS_Store
