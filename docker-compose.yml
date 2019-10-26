@@ -3,7 +3,7 @@ version: "2"
 
 services:
   engine:
-    image: qlikcore/engine:12.424.0
+    image: qlikcore/engine:12.477.0
     command: -S AcceptEULA=${ACCEPT_EULA} -S DocumentDirectory=/docs
     ports:
       - "19076:9076"
