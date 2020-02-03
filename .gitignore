@@ -3,3 +3,5 @@ documents
 /data-load/node_modules
 
 .DS_Store
+
+.env
